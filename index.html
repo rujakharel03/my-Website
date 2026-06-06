@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Attendance Sheet</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="bhaktapur-multiple-campus-300x225.webp" alt="Bhaktapur Multiple Campus Logo">
+        <h1>BHAKTAPUR MULTIPLE CAMPUS</h1> <br>
+        <div class="navvvv">
+            <div class="navbar">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="bhaktapur-multiple-campus-building.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Bhaktapur-Multiple-Campus-ground-550x410.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Bhaktapur-Multiple-Campus-yellow-block-550x410.webp" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    </div>
+
+    <h2>Attendance Management System</h2>
+    <div class="form-box">
+        <input type="text" id="name" placeholder="Student Name">
+        <button onclick="addStudent()">Add Student</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Roll No</th>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody id="studentTable">
+        </tbody>
+    </table>
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- Social Icons -->
+            <div class="footer-box">
+                <div class="social-icons">
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menus -->
+            <div class="footer-box">
+                <h3>Menus</h3>
+                <a href="#">→ Gallery</a>
+            </div>
+
+            <!-- Related Links -->
+            <div class="footer-box">
+                <h3>Related Links</h3>
+                <a href="https://www.w3schools.com">→ WWW.w3Schools.com</a>
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <p>📍 Bhaktapur</p>
+                <p>📞 6610200</p>
+                <p>✉ info@bkmc.tu.edu.np</p>
+            </div>
+
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
